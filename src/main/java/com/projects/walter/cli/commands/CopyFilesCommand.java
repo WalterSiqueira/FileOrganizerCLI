@@ -17,6 +17,8 @@ public class CopyFilesCommand  implements Runnable{
 
     @CommandLine.Option(names = "-extension", description = "the extension of the files you want to move, ex: .mp3, .pdf, .mp4", required = true)
     private String ext;
+
+
     public void run() {
         try {
             if (!sourceDir.exists()) {
@@ -31,7 +33,13 @@ public class CopyFilesCommand  implements Runnable{
             if (files != null && files.length > 0) {
                 for (File file : files) {
                     try {
-                        FileUtils.moveFileToDirectory(file, targetDir, false);
+                        File NewTargetDir;
+                        if (targetDir.toString().charAt(targetDir.toString().length() -1) == '/') {
+                            NewTargetDir = new File(targetDir.toString() + "temp");
+                        } else {
+                            NewTargetDir = new File(targetDir.toString() + "/temp");
+                        }
+                        FileUtils.moveFileToDirectory(file, NewTargetDir, true);
                         System.out.println("movido: " + file.getName());
                     } catch (IOException e) {
                         System.out.println(e.getMessage());
