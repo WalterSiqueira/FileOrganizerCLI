@@ -1,3 +1,4 @@
+com/projects/walter/cli/commands/BackupCommand.class
 com/projects/walter/cli/parser/CommandLineParser.class
 com/projects/walter/cli/parser/VersionProvider.class
 com/projects/walter/Application.class

@@ -33,8 +33,8 @@ public class BackupCommand implements Runnable{
                     } catch (IOException e) {
                         System.out.println("Erro: " + e.getMessage());
                     }
-                    System.out.println("Backup criado com sucesso! caminho: " + backupDir.toString() + "/backup");
                 }
+                System.out.println("Backup criado com sucesso! caminho: " + backupDir.toString() + "/backup");
             }
 
         } catch (NoSuchFileException e) {
