@@ -8,7 +8,7 @@ import picocli.CommandLine.Mixin;
 import static picocli.CommandLine.Option;
 
 @Command(
-        subcommands = {CopyFilesCommand.class, CreateCommand.class, ListCommand.class, UpdateCommand.class, DeleteCommand.class},
+        subcommands = {CopyFilesCommand.class},
         versionProvider = VersionProvider.class
 )
 public class CommandLineParser {

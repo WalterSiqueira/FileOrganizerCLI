@@ -1,9 +1,6 @@
-com/projects/walter/cli/commands/UpdateCommand.class
 com/projects/walter/cli/parser/CommandLineParser.class
-com/projects/walter/cli/commands/DeleteCommand.class
-com/projects/walter/cli/commands/ListCommand.class
-com/projects/walter/cli/commands/CreateCommand.class
 com/projects/walter/cli/parser/VersionProvider.class
 com/projects/walter/Application.class
+com/projects/walter/cli/commands/CopyFilesCommand.class
 com/projects/walter/cli/common/HelpOption.class
 com/projects/walter/cli/commands/welcomeCommand.class

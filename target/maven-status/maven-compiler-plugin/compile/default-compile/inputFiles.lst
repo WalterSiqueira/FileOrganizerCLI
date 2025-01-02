@@ -1,9 +1,6 @@
 /home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/common/HelpOption.java
-/home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/commands/DeleteCommand.java
 /home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/parser/CommandLineParser.java
 /home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/parser/VersionProvider.java
 /home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/Application.java
-/home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/commands/CreateCommand.java
-/home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/commands/ListCommand.java
-/home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/commands/UpdateCommand.java
+/home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/commands/CopyFilesCommand.java
 /home/walter/.dev/fileorganizer/src/main/java/com/projects/walter/cli/commands/welcomeCommand.java
