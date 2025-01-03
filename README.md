@@ -18,6 +18,7 @@
 
 ## Dependencies | Dependencias
 - [java runtime environment](https://www.java.com/)
+- [maven](https://maven.apache.org/download.cgi)
 
 ## English version
 ### how to use it:
